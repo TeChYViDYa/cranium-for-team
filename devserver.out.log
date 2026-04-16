@@ -1,0 +1,191 @@
+
+> frontend@1.0.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.142.123.211:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'D:\cranium\src\index.js' in 'D:\cranium'
+[1m[31mERROR[39m[22m in [1m[32mmain[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'D:\cranium\src\index.js' in 'D:\cranium'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m  [1m[31mError[39m[22m[1m: Child compilation [1m[31mfailed[39m[22m[1m:
+  Module [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'D:\cranium\public\index.html' in 'D:\c  ranium'
+  ModuleNotFoundError: Module [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'D:\cranium\public  \index.html' in 'D:\cranium'
+      at D:\cranium\node_modules\webpack\lib\Compilation.js:2143:28
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:1076:13
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:10:1)
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:456:22
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:9:1)
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:642:22
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:193:10
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:917:25
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:1162:8
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:1292:5
+      at D:\cranium\node_modules\neo-async\async.js:6883:13
+      at D:\cranium\node_modules\webpack\lib\NormalModuleFactory.js:1275:45
+      at finishWithoutResolve (D:\cranium\node_modules\enhanced-resolve\lib\Reso  lver.js:590:11)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:679:14
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:16:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:16:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:15:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:16:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:16:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:16:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:16:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\Resolver.js:740:5
+      at eval (eval at create (D:\cranium\node_modules\tapable\lib\HookCodeFacto  ry.js:31:10), <anonymous>:15:1)
+      at D:\cranium\node_modules\enhanced-resolve\lib\DirectoryExistsPlugin.js:4  3:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:89  :21)
+  
+  - Compilation.js:2143 
+    [cranium]/[webpack]/lib/Compilation.js:2143:28
+  
+  - NormalModuleFactory.js:1076 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:1076:13
+  
+  
+  - NormalModuleFactory.js:456 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:456:22
+  
+  
+  - NormalModuleFactory.js:642 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:642:22
+  
+  - NormalModuleFactory.js:193 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:193:10
+  
+  - NormalModuleFactory.js:917 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:917:25
+  
+  - NormalModuleFactory.js:1162 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:1162:8
+  
+  - NormalModuleFactory.js:1292 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:1292:5
+  
+  - async.js:6883 
+    [cranium]/[neo-async]/async.js:6883:13
+  
+  - NormalModuleFactory.js:1275 
+    [cranium]/[webpack]/lib/NormalModuleFactory.js:1275:45
+  
+  - Resolver.js:590 finishWithoutResolve
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:590:11
+  
+  - Resolver.js:679 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:679:14
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - Resolver.js:740 
+    [cranium]/[enhanced-resolve]/lib/Resolver.js:740:5
+  
+  
+  - DirectoryExistsPlugin.js:43 
+    [cranium]/[enhanced-resolve]/lib/DirectoryExistsPlugin.js:43:15
+  
+  - task_queues:89 process.processTicksAndRejections
+    node:internal/process/task_queues:89:21
+  
+  - child-compiler.js:211 
+    [cranium]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:672 finalCallback
+    [cranium]/[webpack]/lib/Compiler.js:672:5
+  
+  - Compiler.js:708 
+    [cranium]/[webpack]/lib/Compiler.js:708:11
+  
+  - Compiler.js:1417 
+    [cranium]/[webpack]/lib/Compiler.js:1417:17
+  
+  
+  - Hook.js:21 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [cranium]/[tapable]/lib/Hook.js:21:14
+  
+  - Compiler.js:1413 
+    [cranium]/[webpack]/lib/Compiler.js:1413:33
+  
+  - Compilation.js:3278 finalCallback
+    [cranium]/[webpack]/lib/Compilation.js:3278:11
+  
+  - Compilation.js:3617 
+    [cranium]/[webpack]/lib/Compilation.js:3617:11
+  
+  
+  - Hook.js:21 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [cranium]/[tapable]/lib/Hook.js:21:14
+  
+  - Compilation.js:3610 
+    [cranium]/[webpack]/lib/Compilation.js:3610:38
+  
+  
+  - Compilation.js:691 
+    [cranium]/[webpack]/lib/Compilation.js:691:11
+  
+  - SourceMapDevToolPlugin.js:639 
+    [cranium]/[webpack]/lib/SourceMapDevToolPlugin.js:639:10
+  
+  - async.js:2830 
+    [cranium]/[neo-async]/async.js:2830:7
+  
+  - async.js:2857 Object.each
+    [cranium]/[neo-async]/async.js:2857:9
+  
+  - SourceMapDevToolPlugin.js:430 
+    [cranium]/[webpack]/lib/SourceMapDevToolPlugin.js:430:17
+  
+  - async.js:2830 
+    [cranium]/[neo-async]/async.js:2830:7
+  
+[39m[22m
+
+[1m[31m1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)[39m[22m
+webpack compiled with [1m[31m3 errors[39m[22m
