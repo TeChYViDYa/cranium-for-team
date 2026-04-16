@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/cranium/cranium/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useRouter } from \"next/navigation\";\n\nexport default function Home() {\n  const router = useRouter();\n\n  return (\n    <main className=\"p-10 space-y-6\">\n      <h1 className=\"text-2xl font-bold\">Silent Signal</h1>\n\n      <p>Dashboard coming soon...</p>\n\n      <button\n        onClick={() => router.push(\"/analyze\")}\n        className=\"bg-black text-white px-4 py-2 rounded-xl\"\n      >\n        Check My Pattern\n      </button>\n    </main>\n  );\n}\n"],"names":["Home","router","className","onClick","push"],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAASA;IACtB,MAAMC,SAAS,IAAA,0JAAS;IAExB,qBACE,yPAAC;QAAKC,WAAU;;0BACd,yPAAC;gBAAGA,WAAU;0BAAqB;;;;;;0BAEnC,yPAAC;0BAAE;;;;;;0BAEH,yPAAC;gBACCC,SAAS,IAAMF,OAAOG,IAAI,CAAC;gBAC3BF,WAAU;0BACX;;;;;;;;;;;;AAKP"}}]
+}
